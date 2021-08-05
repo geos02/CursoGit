@@ -3,6 +3,9 @@
 git init                    -> Inicia un proyeco con git
 git status -s               -> Muestra el estado del seguimiento de Git
 git add <file>              -> Agrega un archivo al staging area
+git add .                   -> Agrega todos los archivos al staging area
 git commit -m "message"     -> Hace un commit de los archivos con un mensaje
 git log --oneline           -> Muestra los diferentes commits que se han hecho del proyecto
 git reset --hard <code>     -> Reinicia el proyecto al commit indicado (irreversible)
+
+LaAvispa_VTuber
