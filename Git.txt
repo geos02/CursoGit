@@ -10,5 +10,7 @@ git log --oneline                   -> Muestra los diferentes commits que se han
 git reset --hard <code>             -> Reinicia el proyecto al commit indicado (irreversible)
 git commit --amend                  -> Abre el editor VIM y permite modificar el mensaje del ultimo commit
 git commit --amend -m "new message" -> Permite escribir un nuevo mensaje desde la línea de comandos sin tener que abrir un editor.
+git push                            -> Envia el repositorio local a Github
+git pull                            -> Enviar desde un repositorio remoto como Github a un repositorio local
 
 LaAvispa_VTuber
