@@ -12,5 +12,7 @@ git commit --amend                  -> Abre el editor VIM y permite modificar el
 git commit --amend -m "new message" -> Permite escribir un nuevo mensaje desde la línea de comandos sin tener que abrir un editor.
 git push                            -> Envia el repositorio local a Github
 git pull                            -> Enviar desde un repositorio remoto como Github a un repositorio local
+git tag <name> -m "message"         -> Crea un tag
+git push --tags                     -> Sube los tags creados a un repositorio remoto de Github
 
 LaAvispa_VTuber
