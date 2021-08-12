@@ -1,5 +1,6 @@
 // Comandos Git
 
+
 git init                            -> Inicia un proyeco con git
 git status -s                       -> Muestra el estado del seguimiento de Git
 git add <file>                      -> Agrega un archivo al staging area
@@ -11,8 +12,22 @@ git reset --hard <code>             -> Reinicia el proyecto al commit indicado (
 git commit --amend                  -> Abre el editor VIM y permite modificar el mensaje del ultimo commit
 git commit --amend -m "new message" -> Permite escribir un nuevo mensaje desde la línea de comandos sin tener que abrir un editor.
 git push                            -> Envia el repositorio local a Github
+
+// Actualizar de Git a Local
 git pull                            -> Enviar desde un repositorio remoto como Github a un repositorio local
+
+// Tags
 git tag <name> -m "message"         -> Crea un tag
 git push --tags                     -> Sube los tags creados a un repositorio remoto de Github
 
-LaAvispa_VTuber
+// Clonar Repositorio
+git clone <url>			            -> Clona un proyecto remoto de Github a uno local
+
+// Nuevo repositorio Github
+- git remote add origin <url>
+- git push origin master
+
+// Ramas
+git branch <name>                   -> Crea una nueva rama con el nombre indicado
+git branch                          -> Muestra las ramas del proyecto y la rama en que estamos trabajando
+git checkout <branch>               -> Movemeos el flujo de trabajo a la rama indicada
